@@ -14,7 +14,7 @@ export default function SearchMain({ setStep, step, setSearchParams, searchParam
   const submitSearch = (model) => {
     console.log("model submit", model);
     navigate(
-      `/search/trains?from_city_id=${model.from_сity_id}&to_city_id=${model.to_city_id}&date_start=${model.date_start}&date_end=${model.date_end}`
+      `/search/trains?from_city_id=${model.from_сity_id}&to_city_id=${model.to_city_id}&date_start=${model.date_start}&date_end=${model.date_end}`,
     );
     step === 0 ? setStep(1) : setStep(0);
   };
@@ -27,8 +27,8 @@ export default function SearchMain({ setStep, step, setSearchParams, searchParam
     // "flex-wrap": step !== 0,
   });
   const changeInputs = () => {
-    const fromCityId = document.querySelector('input[name="from_сity_id"]');
-    const toCityId = document.querySelector('input[name="to_city_id"]');
+    const fromCityId = document.querySelector("input[name='from_сity_id']");
+    const toCityId = document.querySelector("input[name='to_city_id']");
     const fromValue = fromCityId.value;
     fromCityId.value = toCityId.value;
     toCityId.value = fromValue;
@@ -36,7 +36,6 @@ export default function SearchMain({ setStep, step, setSearchParams, searchParam
     console.log(fromCityId, toCityId);
   };
   return (
-
     <div className={classClass}>
       {/* {!data ? ( */}
       <form

@@ -1,5 +1,6 @@
 import "./App.css";
 import { Route, Routes } from "react-router";
+import { BrowserRouter } from "react-router-dom";
 // import Main from './components/Main';
 import Main from "./components/Landing/Main/Main";
 import AboutUsPage from "./components/Landing/AboutUsPage";
@@ -16,7 +17,7 @@ import ResultPage from "./components/Result/ResultPage";
 function App() {
   // let { from_сity_id } = useParams();
   return (
-    <>
+    <BrowserRouter>
       <div>
         {/* <Main /> */}
         <Routes>
@@ -35,7 +36,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </>
+    </BrowserRouter>
   );
 }
 

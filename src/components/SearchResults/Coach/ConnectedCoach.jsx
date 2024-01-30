@@ -52,7 +52,7 @@ export default function ConnectedCoach({ item, setVersion, coachSeat }) {
       new URLSearchParams({
         ...searchParams,
       }),
-      id
+      id,
     );
     if (data) {
       console.log("DATA ChooseSeats", data);
@@ -194,10 +194,10 @@ export default function ConnectedCoach({ item, setVersion, coachSeat }) {
                         dateEnd,
                         price: coach.price,
                         chosenSeats: coach.chooseSeat,
-                      })
+                      }),
                     );
                     navigate(
-                      `/search/persons?coach=${coach.item.coach.train}&seat=${coach.chooseSeat[0]}&direction=${coach.item.coach._id}`
+                      `/search/persons?coach=${coach.item.coach.train}&seat=${coach.chooseSeat[0]}&direction=${coach.item.coach._id}`,
                     );
                   }}
                   className="w-[200px] h-[50px] bg-orange rounded text-18 text-white uppercase font-bold self-end"

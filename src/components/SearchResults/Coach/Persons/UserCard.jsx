@@ -10,7 +10,7 @@ export default function UserCard({ goBack, persons, coachId, info, directionId, 
   const { control, handleSubmit, setValue } = useForm(true);
   const [finalData, setFinalData] = useState({});
   const [payCash, setPayCash] = useState(
-    isEmpty(finalData) ? true : finalData.user.payment_method || user?.payment_method
+    isEmpty(finalData) ? true : finalData.user.payment_method || user?.payment_method,
   );
   const [nextPage, setNextPage] = useState(false);
   const onSubmit = (data) => {

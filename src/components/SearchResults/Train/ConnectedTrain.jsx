@@ -30,7 +30,7 @@ export default function ConnectedTrain() {
       "https://students.netoservices.ru/fe-diplom/routes",
       new URLSearchParams({
         ...searchParams,
-      })
+      }),
     );
     if (!data) {
       console.log(error);

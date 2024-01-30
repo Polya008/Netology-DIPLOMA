@@ -1,7 +1,6 @@
 import classNames from "classnames";
 
 export default function HowItWorkStep({ step, text, c }) {
-
   const image = classNames(
     {
       "bg-[url('img/step1.png')]": step === "step-1",
@@ -9,7 +8,7 @@ export default function HowItWorkStep({ step, text, c }) {
       "bg-[url('img/step3.png')]": step === "step-3",
       "bg-cover w-[162px] h-[162px]": true,
     },
-    [c ?? ""]
+    [c ?? ""],
   );
   return (
     <div className="flex flex-col items-center gap-[34px]">

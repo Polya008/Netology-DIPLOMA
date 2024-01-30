@@ -16,7 +16,6 @@ export default function TripDetails({ item, persons }) {
   const timeDiffdeparture = timedepartureTo.diff(timedepartureFrom);
   const dataDiffdeparture = moment(timeDiffdeparture);
 
-
   const mainClass = classNames({
     "w-[360px] h-[950px] bg-[#3E3C41] mt-9 px-[20px] pt-[10px]": true,
   });

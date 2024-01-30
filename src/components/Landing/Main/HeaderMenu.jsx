@@ -52,12 +52,7 @@ export default function HeaderMenu() {
           ) : (
             <></>
           )}
-          {!price && (
-            <SearchMain
-              step={stepSearch}
-              setStep={setStepSearch}
-            />
-          )}
+          {!price && <SearchMain step={stepSearch} setStep={setStepSearch} />}
         </div>
         {stepSearch !== 0 ? <SearchProgressBar searchStep={stepSearch} /> : <></>}
       </div>

@@ -3,7 +3,6 @@ import React from "react";
 import { Outlet, useLocation } from "react-router";
 
 export default function Main() {
-
   const { pathname } = useLocation();
   console.log("PATH", pathname);
 

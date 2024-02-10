@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Netology-DIPLOMA/static/css/main.612c607b.css",
+    "main.js": "/Netology-DIPLOMA/static/js/main.33f11442.js",
+    "static/js/787.fc7e64e0.chunk.js": "/Netology-DIPLOMA/static/js/787.fc7e64e0.chunk.js",
+    "static/media/search.png": "/Netology-DIPLOMA/static/media/search.d6c1425e989df8653543.png",
+    "static/media/how_it_works.png": "/Netology-DIPLOMA/static/media/how_it_works.990613d6b871b250aa5f.png",
+    "static/media/search2.png": "/Netology-DIPLOMA/static/media/search2.8fca11e0da0596044075.png",
+    "static/media/photo2.png": "/Netology-DIPLOMA/static/media/photo2.8c29dd605f18195a1175.png",
+    "static/media/photo1.png": "/Netology-DIPLOMA/static/media/photo1.acfa1fb115aa831a43fd.png",
+    "static/media/animation.gif": "/Netology-DIPLOMA/static/media/animation.4e2e699c349a7e5f3147.gif",
+    "static/media/coachMap_fourth.png": "/Netology-DIPLOMA/static/media/coachMap_fourth.875ce9493b40739913e1.png",
+    "static/media/coachMap_third.png": "/Netology-DIPLOMA/static/media/coachMap_third.7b00450cd1f332b8525a.png",
+    "static/media/coachMap_second.png": "/Netology-DIPLOMA/static/media/coachMap_second.09ec4be7b5774962609d.png",
+    "static/media/coachMap_first.png": "/Netology-DIPLOMA/static/media/coachMap_first.403c59d049c2dbf12cf1.png",
+    "static/media/express.svg": "/Netology-DIPLOMA/static/media/express.ba3e64df2d7e76850d59.svg",
+    "static/media/wifi.svg": "/Netology-DIPLOMA/static/media/wifi.6c69a54fb287fc0a00a2.svg",
+    "static/media/thirdClass.svg": "/Netology-DIPLOMA/static/media/thirdClass.e38bc6b010a775d2e604.svg",
+    "static/media/secondClass.svg": "/Netology-DIPLOMA/static/media/secondClass.847e36cf1ca3f1f6fde0.svg",
+    "index.html": "/Netology-DIPLOMA/index.html",
+    "static/media/arrow.svg": "/Netology-DIPLOMA/static/media/arrow.77c52095dae9b6910b03.svg",
+    "static/media/firstClass.svg": "/Netology-DIPLOMA/static/media/firstClass.5a0ad8266bde859d4d9e.svg",
+    "static/media/Vector.svg": "/Netology-DIPLOMA/static/media/Vector.042587294fc3afea4e79.svg",
+    "main.612c607b.css.map": "/Netology-DIPLOMA/static/css/main.612c607b.css.map",
+    "main.33f11442.js.map": "/Netology-DIPLOMA/static/js/main.33f11442.js.map",
+    "787.fc7e64e0.chunk.js.map": "/Netology-DIPLOMA/static/js/787.fc7e64e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.612c607b.css",
+    "static/js/main.33f11442.js"
+  ]
+}

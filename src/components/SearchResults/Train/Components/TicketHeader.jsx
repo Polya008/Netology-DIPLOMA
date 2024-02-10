@@ -1,5 +1,4 @@
 import React from "react";
-import MyInput from "../../../UI/MyInput";
 
 export default function TicketHeader({ setSeatCount }) {
   return (
